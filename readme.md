@@ -14,7 +14,8 @@ Personalizaremos algunos componentes con clases css.
 
 1. Clonar el repositorio
 2. Abrir el proyecto
-3. Instalar depencias:
+3. Abrir la terminal
+4. Instalar depencias:
 
 ```javascript
 
@@ -22,7 +23,7 @@ npm install
 
 ```
 
-4. Lanzar aplicación para visualizar en el navegador:
+5. Lanzar aplicación para visualizar en el navegador:
 
 ```javascript
 
