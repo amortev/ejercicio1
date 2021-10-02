@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalle del empleado</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <img [src]=dataUser.image>
+  <ion-card class="card">
+    <ion-card-header>
+      <ion-title id="title">{{dataUser.first_name}}</ion-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{dataUser.last_name}}</p>
+      <p>{{dataUser.email}}</p>
+      <p *ngIf="dataUser.gender == 'Polygender'">{{dataUser.gender}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
